@@ -1,0 +1,728 @@
+@font-face {
+    font-family: 'glyphicons-halflings-regular';
+    src: url('fonts/glyphicons-halflings-regular.eot');
+    src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/glyphicons-halflings-regular.woff') format('woff'),
+         url('fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+         url('fonts/glyphicons-halflings-regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fontawesome-webfont';
+    src: url('fonts/fontawesome-webfont.eot');
+    src: url('fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/fontawesome-webfont.woff') format('woff'),
+         url('fonts/fontawesome-webfont.ttf') format('truetype'),
+         url('fonts/fontawesome-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/Roboto-Regular.eot');
+    src: url('fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Regular.woff2') format('woff2'),
+         url('fonts/Roboto-Regular.woff') format('woff'),
+         url('fonts/Roboto-Regular.ttf') format('truetype'),
+         url('fonts/Roboto-Regular.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('fonts/Roboto-Bold.eot');
+    src: url('fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Bold.woff2') format('woff2'),
+         url('fonts/Roboto-Bold.woff') format('woff'),
+         url('fonts/Roboto-Bold.ttf') format('truetype'),
+         url('fonts/Roboto-Bold.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('fonts/Roboto-Medium.eot');
+    src: url('fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Medium.ttf') format('truetype'),
+         url('fonts/Roboto-Medium.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url('fonts/Roboto-Black.eot');
+    src: url('fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Black.ttf') format('truetype'),
+         url('fonts/Roboto-Black.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    height: 7em;
+    width: 100%;
+    box-shadow: 0px 1px 2px grey;
+    position: fixed;
+    top: 0;
+    font-family: 'robotomedium', Arial, serif;
+    z-index: 2;
+    font-size: 0.9em;
+}
+
+
+nav ul
+{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 17%;
+}
+
+nav li
+{
+	width: 5.5em;
+	text-align: center;
+	color: #6b6b6b;
+	height: 7em;
+	border-top: 0.5em #ffffff solid;
+}
+
+nav li:hover
+{
+	border-top: 0.5em #5cadd3 solid;
+	color: #444444;
+}
+
+nav li a
+{
+	text-decoration: none;
+	display: block;
+	margin-top: 43%;
+	color: #6b6b6b;
+}
+
+nav li a:visited
+{
+	color: inherit;
+}
+
+#logo img
+{
+	display: block;
+	margin-left: 21%;
+}
+
+
+body
+{
+	margin: auto;
+}
+
+section#accueil
+{
+	background-image: url("images/slider/bg1.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 35em;
+	margin-top: 6.4em;
+}
+
+div#presentation
+{
+	position: relative;
+	top: 30%;
+	left: 10%;
+	color: white;
+	width: 35%;
+	z-index: 1;
+}
+
+div#presentation h1
+{
+	text-transform: uppercase;
+	font-size: 2.3em;
+	font-family: 'robotoblack', Arial, serif;
+	margin-bottom: auto;
+}
+
+div#presentation h1 strong
+{
+	color: #5cadd3;
+}
+
+div#presentation p
+{
+	font-family: 'robotomedium', Arial, serif;
+	font-size: 0.9em;
+}
+
+a#infos
+{
+	font-family: 'robotomedium', Arial, serif;
+	font-size: 1.1em;
+	text-decoration: none;
+	color: white;
+	background-color: #5cadd3;
+	text-align: center;
+	display: block;
+	width: 7em;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	border-radius: 0.2em;
+	border-bottom: 0.15em solid #4494bb;
+}
+
+a#infos:hover
+{
+	background-color: #4494bb;
+	border-bottom: 0.15em solid #5cadd3;	
+}
+
+#flecheg
+{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 0 solid black;
+	border-top-left-radius: 3em;
+	border-bottom-left-radius: 3em;
+	padding-top: 1.7em;
+	padding-bottom: 1.7em;
+	padding-left: 0.8em;
+	padding-right: 0.4em;
+	position: absolute;
+	right: 0em;
+	top: 22em;
+}
+
+#fleched
+{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 0 solid black;
+	border-top-right-radius: 3em;
+	border-bottom-right-radius: 3em;
+	padding-top: 1.7em;
+	padding-bottom: 1.7em;
+	padding-left: 0.4em;
+	padding-right: 0.8em;
+	position: absolute;
+	left: auto;
+	top: 22em;
+}
+
+div#sliderpage
+{
+	display: flex;
+	position: absolute;
+	top: 41.1em;
+	width: 100%;
+}
+
+div#sliderpage div
+{
+	width: 100%;
+	border-bottom: 0.25em rgba(0, 0, 0, 0.2) solid;
+}
+
+div#sliderpage div#select
+{
+	border-bottom: 0.25em #5cadd3 solid;
+}
+
+div#separate
+{
+	background-image: linear-gradient(#ffffff, #eeeeee);
+	height: 4em;
+	border-bottom: 0.05em #d5d5d5 solid;
+}
+
+
+section#services
+{
+	margin-bottom: 2.5em;
+	padding-top: 7em;
+}
+
+div#titre
+{
+	text-align: center;
+	width: 40em;
+	margin: auto;
+	padding-top: 0.7em;
+}
+
+div#titre h1
+{
+	text-transform: uppercase;
+	font-family: 'robotoblack', Arial, serif;
+	font-size: 2.8em;
+	margin: auto;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
+
+div#titre i
+{
+	font-size: 0.9em;
+	color: #5cadd3;
+	border: 0.4em white solid;
+	border-radius: 100%;
+	position: relative;
+	bottom: 1.4em;
+}
+
+div#titre p, div#servicelist p
+{
+	font-family: 'robotomedium', Arial, serif;
+	color: #6b6b6b;
+	font-size: 0.9em;
+}
+
+hr
+{
+    height: 1px;
+    border: 0;
+    background-color: #d9d9d9;
+    border-style: none;
+    width: 9em;
+}
+
+div#contenu
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 4em;
+}
+
+div#servicelist
+{
+	width: 40%;
+	margin-top: 0.5em;
+}
+
+div#servicelist h2
+{
+    font-family: 'robotomedium', Arial, serif;
+    font-size: 1.2em;
+    margin-bottom: auto;
+}
+
+div#servicelist ul
+{
+	list-style: none;
+}
+
+div#servicelist li h2 + p
+{
+	height: 1em;
+}
+
+div#servicelist i
+{
+	font-size: 1.6em;
+	color: #5cadd3;
+	border: 0.05em #d5d5d5 solid;
+	border-radius: 100%;
+	padding: 0.6em;
+	position: relative;
+	top: 3em;
+	right: 3em;
+}
+
+div#servicelist i#point
+{
+	font-size: 0.5em;
+	border: 0 black none;
+	position: absolute;
+	right: -1em;
+	top: 1.2em;
+	border: 0.5em white solid;
+	border-radius: 100%;
+	padding: 0;
+}
+
+div#servicelist i#point2
+{
+	font-size: 0.5em;
+	border: 0 black none;
+	position: absolute;
+	right: -1em;
+	top: 1.2em;
+	border: 0.5em white solid;
+	border-radius: 100%;
+	padding: 0;
+}
+
+div#servicelist i#point3
+{
+	font-size: 0.5em;
+	border: 0 black none;
+	position: absolute;
+	right: -1em;
+	top: 1.2em;
+	border: 0.5em white solid;
+	border-radius: 100%;
+	padding: 0;
+}
+
+
+section#projets
+{
+	background-color: #f5f5f5;
+	box-shadow: 0px -10px 4px -11px rgba(0, 0, 0, 0.22);
+	padding-top: 7em;
+}
+
+div#titre1
+{
+	text-align: center;
+	width: 40em;
+	margin: auto;
+	padding-top: 0.7em;
+}
+
+div#titre1 h1
+{
+	text-transform: uppercase;
+	font-family: 'robotoblack', Arial, serif;
+	font-size: 2.8em;
+	margin: auto;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
+
+div#titre1 i
+{
+	font-size: 0.9em;
+	color: #5cadd3;
+	border: 0.4em white solid;
+	border-radius: 100%;
+	position: relative;
+	bottom: 1.4em;
+}
+
+div#titre1 p
+{
+	font-family: 'robotomedium', Arial, serif;
+	color: #6b6b6b;
+	font-size: 0.9em;
+}
+
+div#boutons
+{	
+    font-family: 'robotomedium', Arial, serif;
+    font-size: 0.8em;
+    color: #64686d;
+	margin: 0 auto;
+	margin-top: 3em;
+	margin-bottom: 4em;
+	padding-top: 1.8em;
+}
+
+div#boutons ul
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+div#boutons li
+{
+	padding: 1em;
+	padding-top: 0;
+	padding-bottom: 0;
+	background-color: #e5e5e5;
+	border-bottom: 0.25em solid transparent;
+	height: 2.5em;
+}
+
+div#boutons li p
+{
+	margin-top: 0.7em;
+	margin-bottom: 0.8em;
+}
+
+div#boutons li#bouton1
+{
+	border-radius: 0.3em 0em 0em 0.3em;
+
+}
+
+div#boutons li#bouton4
+{
+	border-radius: 0em 0.3em 0.3em 0em;
+}
+
+div#boutons li:hover
+{
+	background-color: #5cadd3;
+	color: white;
+	border-bottom: 0.2em solid #468cad;
+	cursor: pointer;
+}
+
+li#bouton1:hover a#triangle1
+{
+	border-top : 5px solid #468cad;
+}
+
+div#boutons ul a#triangle1
+{
+	margin-left: 1.5em;
+}
+
+li#bouton2:hover a#triangle2
+{
+	border-top : 5px solid #468cad;
+}
+
+div#boutons ul a#triangle2
+{
+	margin-left: 1.5em;
+}
+
+li#bouton3:hover a#triangle3
+{
+	border-top : 5px solid #468cad;
+}
+
+div#boutons ul a#triangle3
+{
+	margin-left: 1.5em;
+}
+
+li#bouton4:hover a#triangle4
+{
+	border-top : 5px solid #468cad;
+}
+
+div#boutons ul a#triangle4
+{
+	margin-left: 1.5em;
+}
+
+div#boutons ul a
+{
+	position: absolute;
+	display : inline-block;
+	height : 0;
+	width : 0;
+	border-top : 5px solid transparent;
+	border-right : 7px solid transparent;
+	border-left : 6px solid transparent;
+}
+
+img.mini
+{
+	width: 100%;
+}
+
+div#miniatures
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+div#miniatures div
+{
+	width: 23%;
+	margin-bottom: 2%;
+	position: relative;
+}
+
+div#miniatures div p
+{
+	display: none;
+}
+
+div#miniatures div p em
+{
+	font-style: normal;
+	font-family: 'robotobold', Arial, serif;
+	font-size: 1.1em;
+}
+
+div#miniatures div i
+{
+	display: none;
+}
+
+div#miniatures div a
+{
+	text-decoration: none;
+}
+
+div#miniatures div:hover i
+{
+	position: absolute;
+	left: 80%;
+	top: 65%;
+	display: initial;
+	color: white;
+	background-color: #4b9eb0;
+	padding: 4%;
+	border-radius: 100%;
+	border: 0.1em solid white;
+	font-size: 85%;
+}
+
+div#miniatures div:hover p
+{
+	font-family: 'robotomedium', Arial, serif;
+	font-size: 0.9em;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: white;
+	position: absolute;
+	bottom: 0.3em;
+	width: 98%;
+	height: 22%;
+	margin: 0;
+	padding-left: 2%;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+section#contact
+{
+	position: relative;
+}
+
+div#bluecover
+{
+	pointer-events: none;
+	position: absolute;
+    background-color: #3491B2 ;
+    opacity: 0.3;
+	width: 100%;
+	height: 100%;
+	bottom: 0%;
+}
+
+#map object
+{
+	width: 100%;
+	height: 38em;
+}
+
+div#form
+{
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
+	font-family: 'robotomedium', Arial, serif;
+	pointer-events: auto;
+	width: 23em;
+	height: 31em;
+	bottom: 8%;
+	right: 10%;
+}
+
+form
+{
+	margin-left: 1em;
+	padding-top: 1em;
+}
+
+form p
+{
+	margin-top: auto;
+}
+
+form input, textarea
+{
+	font-family: 'robotomedium', Arial, serif;
+	font-size: 0.9em;
+	opacity: 0.7;
+	width: 90%;
+	padding: 2%;
+	border-radius: 0.3em;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: #cccccc;
+}
+
+form textarea
+{
+	height: 8.8em;
+	max-height: 9.6em;
+	max-width: 23em;
+}
+
+input#send
+{
+	font-family: 'robotomedium', Arial, serif;
+	font-size: 1.1em;
+	text-decoration: none;
+	color: white;
+	background-color: #5cadd3;
+	width: 7em;
+	height: 1.9em;
+	border: none;
+	border-bottom: 0.15em solid #4494bb;
+	opacity: 1;
+}
+
+input#send:hover
+{
+	cursor: pointer;
+	background-color: #4494bb;
+	border-bottom: 0.15em solid #5cadd3;	
+}
+
+p#infoscontact
+{
+	color: #64686d;
+	font-size: 0.9em;
+}
+
+p#infoscontact strong
+{
+	color: black;
+	font-size: 1.6em;
+	line-height: 180%;
+	font-weight: bold;
+}
+
+p#infoscontact em
+{
+	font-style: normal;
+	font-weight: bold;
+	line-height: 180%;
+}
+
+a#tel
+{
+	border-bottom: 1px solid #cccccc;
+}
+
+i.fas.fa-bars
+{
+	display: none;
+}
+
+strong
+{
+	font-weight: normal;
+}

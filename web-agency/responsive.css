@@ -1,0 +1,263 @@
+@media screen and (max-width: 980px)
+{
+	p#image
+	{
+		display: none;
+	}
+
+	div#servicelist
+	{
+		width: 80%;
+		margin-top: 0;
+	}
+
+	div#contenu
+	{
+		margin-top: 0;
+	}
+
+	div#presentation
+	{
+		width: 55%;
+	}
+
+	div#miniatures div
+	{
+		width: 45%;
+	}
+
+	div#miniatures div:hover p
+	{
+		font-size: 1.2em;
+		bottom: 0.2em;
+	}
+}
+
+@media screen and (max-width: 768px)
+{
+	header
+	{
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+	nav
+	{
+		margin-top: 2.9em;
+	}
+
+	nav ul
+	{
+		width: 100%;
+		padding-left: 0;
+		font-size: 108%;
+	}
+
+	nav li
+	{
+		height: 3em;
+	}
+
+	nav li:hover
+	{
+		border-top: 0;
+		border-bottom: 0.8em #5cadd3 solid;
+	}
+
+	nav li a
+	{
+		margin-top: auto;
+		height: 100%;
+	}
+
+	div#logo
+	{
+		position: absolute;
+		left: 0;
+
+	}
+
+	div#logo img
+	{
+		margin-left: 3%;
+		width: 80%;
+	}
+
+	section#accueil
+	{
+		background-size: cover;
+		height: auto;
+		margin-top: 5.8em;
+		padding-top: 4em;
+	}
+
+	div#presentation
+	{
+		width: 55%;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		left: 3%;
+	}
+
+	#fleched
+	{
+		display: none;
+	}
+
+	#flecheg
+	{
+		display: none;
+	}
+
+	div#sliderpage
+	{
+		display: none;
+	}
+
+	div#titre
+	{
+		width: 95%;
+	}
+
+	div#titre1
+	{
+		width: 95%;
+	}
+
+	div#miniatures div:hover p
+	{
+		font-size: 1em;
+	}
+
+	div#form
+	{
+		width: 80%;
+		height: auto;
+	}
+
+	div#map
+	{
+		width: 100%;
+		height: 38em;
+	}
+
+	div#map object
+	{
+		display: none;
+	}
+
+	form textarea
+	{
+		max-width: 100%;
+	}
+}
+
+
+
+@media screen and (max-width: 576px)
+{
+	#hamburger
+	{
+		display: block;
+		font-size: 3em;
+		color: #5cadd3;
+		position: absolute;
+    	right: 8%;
+    	top: 30%;
+	}
+
+	nav:hover ul
+	{
+		display: flex;
+		background-color: white;
+		flex-direction: column;
+		position: absolute;
+		right: 0%;
+		top: 100%;
+		width: 34%;
+		border-bottom: 0.1em #5cadd3 solid;
+    	border-left: 0.2em #5cadd3 solid;
+	}
+
+	nav:hover #hamburger
+	{
+		color: white;
+	}
+
+	nav ul
+	{
+		display: none;
+	}
+
+	nav li a
+	{
+		margin-left: 30%;
+		line-height: 304%;
+	}
+
+	nav li:hover
+	{
+		border-left: 0.5em #5cadd3 solid;
+		border-bottom: 0;
+	}
+
+	nav
+	{
+		margin-top: 3.9em;
+	}
+
+
+	section#accueil
+	{
+		background-position: 59%;
+		box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.4);
+	}
+
+	div#presentation
+	{
+		width: 98%;
+		max-width: 24em;
+	}
+
+	section#services
+	{
+		margin-bottom: 24%;
+	}
+
+	div#servicelist i
+	{
+		top: 2.3em;
+		right: 2.9em;
+	}
+
+	div#servicelist p
+	{
+		width: 113%;
+	}
+
+	div#servicelist ul li
+	{
+		margin-bottom: 2em;
+	}
+
+
+	section#projets
+	{
+		padding-bottom: 7%;
+	}
+
+	div#miniatures div
+	{
+		width: 95%;
+	}
+
+
+	div#form
+	{
+	width: 100%;
+    height: auto;
+    margin-right: -10%;
+    top: 3%;
+    bottom: 3%;
+	}
+}
