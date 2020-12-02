@@ -1,0 +1,154 @@
+html { scroll-behavior: smooth; }
+
+body {
+	background-color: #aec5d5;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar { background-color: #1f4c72; }
+
+.bg-image {
+	background-image: url(../media/4K-Alaska-Photo-Download.jpg);
+	filter: blur(0.5rem);
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: repeat;
+	background-size: auto;
+	position: fixed;
+}
+
+.card-header {
+	background-color: rgb(31, 76, 113);
+	color: white;
+}
+
+.connexion {
+	position: absolute;
+	right: 5px;
+}
+
+.article {
+	background-color: #1F4C73;
+	color: #F2E8C9;
+	margin: 16px;
+	box-shadow: 1px 1px 8px black;
+}
+
+.article:hover {
+	box-shadow: 1px 1px 20px black;
+	transition-duration: 0.4s;
+}
+
+.jumbotron-fluid {
+	padding-top: 0;
+	box-shadow: inset 0px 0px 12px black;
+	margin-bottom: 0;
+	background-color: white;
+}
+
+.btn-primary {
+	color: #f2e8c9!important;
+	background-color: #444444!important;
+	border-color: #636363!important;
+}
+
+.btn-primary:hover {
+	color: #0a0a0a!important;
+	background-color: #f2e8c9!important;
+	border-color: #000000!important;
+}
+
+.desc-chapter {
+	max-height: 90px;
+	overflow: auto;
+	min-height: 90px;
+}
+
+.text-container {
+	padding: 21px;
+	padding-bottom: 38px;
+    background-color: #00000014;
+    margin: 28px;
+    box-shadow: inset 0px 0px 2px;
+    position: relative;
+    width: 96%;
+    overflow-wrap: break-word;
+}
+
+.pic-container {
+	width: 285px;
+    border-radius: 44px;
+    box-shadow: 0px -1px 4px 0px black;
+    margin-top: 20px;
+}
+
+#footer {
+	height: 66px;
+    background-color: #1f4c70;
+    color: white;
+}
+
+.footer-content {
+	text-align: center;
+}
+
+a {	color: white }
+
+a:hover {
+	text-decoration: none;
+	color: white
+}
+
+#back {
+	position: absolute;
+    left: 26px;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    color: #1f4c70;
+    border-radius: 100%;
+    opacity: 0.3;
+}
+
+#back:hover {
+	opacity: 1;
+	transition-duration: 0.3s;
+}
+
+.fa-exclamation-circle {
+	position: absolute;
+    right: 12px;
+    top: 6px;
+    font-size: 32px;
+    color: black;
+}
+
+.com-date {
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 12px;
+}
+
+#comment { min-height: 150px; }
+
+.form-control {
+	border-bottom: 1px solid #ced4da!important;
+	color: black!important;
+}
+
+strong { font-weight: bold; }
+
+.alert-danger {
+    position: fixed;
+    z-index: 1000;
+    right: 9px;
+    top: 4px;
+    box-shadow: 2px 1px 5px #0000008f;
+}
+
+#email { margin-left: 2.5rem!important; }
+
+#password { margin-left: 2.5rem!important; }
